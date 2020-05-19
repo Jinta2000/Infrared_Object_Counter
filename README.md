@@ -29,6 +29,9 @@ Here we are using 16x2 LCD Display. It is used for displaying the count. 16x2 me
 # PIR sensor
 A PIR-based motion detector is used to sense movement of people, animals, or other objects. A PIR sensor can detect changes in the amount of infrared radiation impinging upon it, which varies depending on the temperature and surface characteristics of the objects in front of the sensor.  When an object, such as a person, passes in front of the background, such as a wall, the temperature at that point in the sensor's field of view will rise from room temperature to body temperature, and then back again. The sensor converts the resulting change in the incoming infrared radiation into a change in the output voltage, and this triggers the detection. Objects of similar temperature but different surface characteristics may also have a different infrared emission pattern, and thus moving them with respect to the background may trigger the detector as well. It has three pins – Output, VCC and GND. The output will show HIGH when motion detected and show LOW when there is no motion.
 # Circuit Diagram
+https://github.com/Jinta2000/Infrared_Object_Counter/blob/master/CircuitDiagram.png
 # Schematic Representation
+https://github.com/Jinta2000/Infrared_Object_Counter/blob/master/IRObjectCounterSchematic_schem.png
 # Working
 We use Arduino UNO as microcontroller. The board is programmed to get the value from PIR sensor. If the value is HIGH(1), then count of people increased by one. If the value is LOW(0), there will be no reaction. Then the value of the count will be displayed on the LCD screen every time. If count changes then also display the new value of count. The final result got through the project is given in the video. The ball on the video indicates the each people. When we look on the LCD display we get the count
+https://github.com/Jinta2000/Infrared_Object_Counter/blob/master/InfraredCounter.webm
