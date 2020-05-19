@@ -33,5 +33,4 @@ https://github.com/Jinta2000/Infrared_Object_Counter/blob/master/CircuitDiagram.
 # Schematic Representation
 https://github.com/Jinta2000/Infrared_Object_Counter/blob/master/IRObjectCounterSchematic_schem.png
 # Working
-We use Arduino UNO as microcontroller. The board is programmed to get the value from PIR sensor. If the value is HIGH(1), then count of people increased by one. If the value is LOW(0), there will be no reaction. Then the value of the count will be displayed on the LCD screen every time. If count changes then also display the new value of count. The final result got through the project is given in the video. The ball on the video indicates the each people. When we look on the LCD display we get the count
-https://github.com/Jinta2000/Infrared_Object_Counter/blob/master/InfraredCounter.webm
+We use Arduino UNO as microcontroller. The board is programmed to get the value from PIR sensor. If the value is HIGH(1), then count of people increased by one. If the value is LOW(0), there will be no reaction. Then the value of the count will be displayed on the LCD screen every time. If count changes then also display the new value of count.
